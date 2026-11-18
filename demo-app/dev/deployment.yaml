@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: demo-app-dev
-  replicas: 1
+  replicas: 3
   template:
     metadata:
       name: demo-app-dev
